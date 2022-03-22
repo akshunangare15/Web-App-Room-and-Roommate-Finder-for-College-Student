@@ -10,17 +10,6 @@
 
 2. Add ALL members of your team to this repository. For it to count, they must ACCEPT the invite.
 
-3. Fill out the table below
 
-
-| Student Name   |      Student Email      | GitHub Username |
-|    :---:       |          :---:          |      :---:      |
-| Daniel Guo     | dguo@mail.sfsu.edu      | yiluun          |
-| Joseph Edradan | jedradan@mail.sfsu.edu  | josephedradan   |
-| Jacky Qiu Xu   | jqiuxu1@mail.sfsu.edu   | jackyqiu123     |
-| Travis Nguyen  | tnguyen93@mail.sfsu.edu | travisnguyen27  |
-| Jinjian Tan    | jtan17@mail.sfsu.edu    | KenOasis        |
-| Bhavana Nangare| bnangare@mail.sfsu.edu  | akshunangare15  |
-| Akshay Mhatre  | amhatre@sfsu.edu        | akshay1929      |
 
 ## NO code needs to be stored in the root of your repository. You may rename the application folder if you like to your team's application name. But all source code related to your team's application should be stored inside the application folder.
