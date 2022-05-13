@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "csc648projectteam02",
+    "database": "tests",
+    "host": "csc-648-project-team-02-database.cbfddak6n8o6.us-west-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "logging": true,
+    "define": {
+      "timestamps": false,
+      "freezeTableName": true
+    }
+  },
+  "production": {
+    "username": "admin",
+    "password": "csc648projectteam02",
+    "database": "tests",
+    "host": "csc-648-project-team-02-database.cbfddak6n8o6.us-west-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "logging": false,
+    "define": {
+      "timestamps": false,
+      "freezeTableName": true
+    }
+  }
+}
