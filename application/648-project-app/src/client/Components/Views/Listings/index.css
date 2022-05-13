@@ -1,0 +1,63 @@
+.listings-result img{
+    border-radius: 0;
+}
+.listing-profile{
+    display:flex;
+    margin:8%;
+
+}
+.listing-description p{
+    border: solid rgb(240, 231, 231) 1px;
+    border-radius:25px;
+    width:100%;
+    padding:2%;
+    font-size:20px;
+}
+.listing-header ul{
+    list-style-type:none;
+    display:flex;
+}
+.listing-header ul li{
+    font-size:30px;
+}
+.listing-profile ul{
+    list-style-type:none;
+    
+}
+.listing-profile ul li{
+    margin-top:3%;
+    
+}
+.display-listings h3{
+    text-align: center;
+}
+/*-------------------------FOR IMAGE MODAL-------------------------------------*/
+.listing-image{
+    cursor:pointer;
+}
+.listing-image:hover{
+    opacity:0.7;
+}
+/*---------------------------------------------------------------*/
+
+@media only screen and (max-width: 950px){
+    .listing-profile{
+        display:block;
+        margin-top:20%;
+    }
+    /* additional-images{
+        grid-template-columns:repeat(2,0fr);
+        
+    } */
+    
+     
+}
+@media only screen and (max-width: 600px){
+    .listing-header ul li{
+        font-size:15px;
+    }
+    .listing-profile{
+        margin-top:30%;
+    }
+
+}
