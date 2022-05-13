@@ -1,1 +1,94 @@
 
+   .sign-in, .sign-up, .update-form{
+    background-image: url("../../../images/landingimage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    
+    max-width:500px;
+    margin:10% auto;
+    border:2px solid black;
+    padding:2rem;
+    background:#76b5ec;
+    box-shadow: 1px 5px;
+   }
+   .main-contents{
+    margin-top:4%;
+    height:1000px;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(168, 224, 245, 0.616);
+    background-blend-mode:lighten;
+    text-align: center;
+  }
+   form label{
+     display:block;
+     font-size:1.5em;
+   }
+   form input[type = text],input[type = password],input[type = email], input[type = "number"]{
+     display:block;
+     width:100%;
+     margin-bottom:15px;
+     padding:10px;
+     font-size:1.5em;
+     border-radius:5px;
+   }
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+       margin: 0; 
+   }
+
+   
+   input[type=number] {
+       -moz-appearance:textfield; /* Firefox */
+   }
+   .authen-submit input[type = submit], .authen-submit input[type = button]{
+    display:block;
+    position:relative;
+    width:50%;
+    left:125px;
+    padding:10px;
+    font-size:1.5em;
+  }
+  form input[type = text],input[type = password],input[type = email]{
+    display:block;
+    width:100%;
+    margin-bottom:15px;
+    padding:10px;
+    font-size:1.5em;
+    border-radius:5px;
+    
+  }
+  form input[checkbox]{
+    padding:10px;
+  }
+  a{
+      text-decoration: none;
+  }
+.alt-opt{
+  text-align: center;
+}
+.sign-up p{
+  color:red;
+}
+.alt-opt p{
+  color:black;
+}
+@media only screen and (max-width: 900px){
+  .sign-up, .sign-in, .update-form{
+    margin:20% auto;
+  }
+   
+}
+
+@media only screen and (max-width: 500px){
+   .sign-up, .sign-in, .update-form{
+     width:80%;
+     margin:30% auto;
+   }
+}
