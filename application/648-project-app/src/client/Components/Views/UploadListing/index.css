@@ -1,0 +1,116 @@
+
+   .upload{
+    max-width:500px;
+    margin:10% auto;
+    border:2px solid black;
+    padding:2rem;
+    background:#76b5ec;
+    box-shadow: 1px 5px;
+   }
+   form label{
+     display:block;
+     font-size:1.5em;
+   }
+   form input[type = text],input[type = password],input[type = email], input[type = "number"]{
+     display:block;
+     width:100%;
+     margin-bottom:15px;
+     padding:10px;
+     font-size:1.5em;
+     border-radius:5px;
+     
+   }
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+       margin: 0; 
+   }
+   
+   input[type=number] {
+       -moz-appearance:textfield; /* Firefox */
+   }
+   .upload-submit input[type = submit]{
+    display:block;
+    position:relative;
+    width:50%;
+    left:125px;
+    padding:10px;
+    font-size:1.5em;
+  }
+  form input[type = text],input[type = password],input[type = email]{
+    display:block;
+    width:100%;
+    margin-bottom:15px;
+    padding:10px;
+    font-size:1.5em;
+    border-radius:5px;
+    
+  }
+  form input[checkbox]{
+    padding:10px;
+  }
+  a{
+      text-decoration: none;
+  }
+.alt-opt{
+  text-align: center;
+}
+.sign-up p{
+  color:red;
+}
+.alt-opt p{
+  color:black;
+}
+textarea{
+  width:520px;
+  height:200px;
+  resize:none;
+}
+.upload-submit{
+  text-align: center;
+}
+.upload-submit input[type = button]{
+  position:relative;
+  top:20px;
+  font-size: 2em;
+}
+.upload p{
+  color:red;
+  
+}
+@media only screen and (max-width: 900px){
+  .sign-up{
+    margin:20% auto;
+  }
+  .sign-in{
+    margin:20% auto;
+  }
+  .upload{
+    margin:20% auto;
+   }
+ textarea{
+    width:490px;
+    
+  }
+   
+}
+
+@media only screen and (max-width: 550px){
+   .sign-up{
+     width:80%;
+     margin:30% auto;
+   }
+   .sign-in{
+     width:80%;
+     margin:30% auto;
+   }
+   .upload{
+    width:80%;
+    margin:30% auto;
+   }
+   textarea{
+    width:400px;
+    
+    }
+    
+}

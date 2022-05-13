@@ -1,0 +1,33 @@
+
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+.main-contents{
+    margin-top:4%;
+    height:1000px;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(168, 224, 245, 0.616);
+    background-blend-mode:lighten;
+    text-align: center;
+}
+.main-contents h1{
+    position: relative;
+    top:200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-contents h4{
+    position: relative;
+    top:200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.landingpage footer{
+    text-align: center;
+    height:50px;
+    color:white;
+    background-color:rgb(7, 25, 36);
+}
