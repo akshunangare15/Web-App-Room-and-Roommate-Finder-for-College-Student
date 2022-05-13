@@ -1,0 +1,77 @@
+
+.filter form{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+#gender-filter{
+    display:flex;
+    align-items: baseline;
+  
+}
+
+.filter-btn{
+    text-align: center;
+    position: relative;
+}
+.filter-btn button{
+    position:relative;
+    font-size:20px;
+    width:5%;
+    top:20px;
+}
+select{
+    font-size:20px;
+}
+#housing-filter{
+    display:flex;
+    align-items: baseline;
+}
+#price-filter{
+    display:flex;
+    align-items: baseline;
+}
+
+
+@media only screen and (max-width: 1060px){
+    .filter-btn button{
+        position:relative;
+        font-size:20px;
+        width:10%;
+        top:40px;
+    }
+
+}
+@media only screen and (max-width: 900px){
+    .filter form{
+        position:relative;
+        display:block;
+        left:20%;
+        top:0%;
+    }
+    .filter-btn button{
+        position:relative;
+        font-size:20px;
+        width:10%;
+        top:40px;
+    }
+}
+  
+@media only screen and (max-width: 550px){
+    .filter-btn button{
+        position:relative;
+        font-size:20px;
+        width:15%;
+        top:40px;
+        
+    }
+    .filter form{
+        position:relative;
+        display:block;
+        left:20%;
+        top:0%;
+    }
+
+}
